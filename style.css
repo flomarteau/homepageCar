@@ -9,6 +9,9 @@ h1 {
 
 body {
   margin: 0px;
+}
+
+#home {
   height: 100vh;
   background-image: url('background-car.jpg');
   background-size: cover;
@@ -16,4 +19,34 @@ body {
   justify-content: flex-end;
   flex-direction: row;
   align-items: center;
+}
+
+#assets-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 25px;
+  margin: 20px;
+}
+
+.assets .subtitle {
+  font-family: 'Lato', sans-serif;
+  color: #7e93a0;
+
+}
+
+.assets {
+  padding: 35px;
+}
+
+.assets p {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #647782;
+}
+
+.picto {
+  width: 100px;
 }
