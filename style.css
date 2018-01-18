@@ -2,9 +2,18 @@ h1 {
   color: #7e93a0;
   font-family: 'Lato', sans-serif;
   font-size: 55px;
+  display: flex;
+  padding-right: 30px;
+  padding-bottom: 80px;
 }
 
 body {
+  margin: 0px;
+  height: 100vh;
   background-image: url('background-car.jpg');
   background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
 }
